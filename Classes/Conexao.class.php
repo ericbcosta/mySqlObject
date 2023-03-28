@@ -15,7 +15,7 @@ private static function conectar(){
  define('db_pass', 'root');
  }
  if (!defined('db_name')) {
- define('db_name', 'AulaTec');
+ define('db_name', 'Clinica');
  }
  if (!defined('db_port')) {
  define('db_port', 3360);
