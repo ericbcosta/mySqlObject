@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Paciente</title>
 </head>
 
@@ -20,16 +21,19 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Paciente</a>
+                            <a class="nav-link active" href="/pwII/mySqlObject/pacienteGer.php">Paciente</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Médico</a>
+                            <a class="nav-link" href="/pwII/mySqlObject/EspecializacaoGer.php">Especialização</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled">Disabled</a>
+                            <a class="nav-link" href="/pwII/mySqlObject/Especializacoes.php">Especializações</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pwII/mySqlObject/pacientes.php">Pacientes</a>
                         </li>
                     </ul>
                 </div>
