@@ -8,4 +8,10 @@
     $sqlSelect = "SELECT * from {$this->tabela}";
     return Conexao::query($sqlSelect);
  }
+
+ public function buscar($campo, $id){
+   $selectSql = "SELECT * FROM {$this->tabela} WHERE $campo = {$id}";
+   $dados = Conexao::query($selectSql);
+   return $dados -> fetch_object();
+ }
  }
