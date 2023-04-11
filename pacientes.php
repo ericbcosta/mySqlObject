@@ -65,7 +65,7 @@
                     <tr>
                         <td>
                             <a href="pacienteGer.php?id=<?php echo $row->idPac ?>" class="btn btn-secundary"><span class="material-symbols-outlined">edit_square</span> </a>
-                            <a href="#" class="btn btn-secundary"><span class="material-symbols-outlined">delete</span></a>
+                            <a href="pacienteGer.php?idel=<?php echo $row->idPac ?>" class="btn btn-secundary"><span class="material-symbols-outlined">delete</span></a>
                         </td>
                         <td><img src="imagesPac/<?php echo $row->fotoPac; ?> " class="imgred" alt="Foto do Paciente <?php $row->fomePac; ?>"></td>
                         <td><?php echo $row->nomePac; ?> </td>

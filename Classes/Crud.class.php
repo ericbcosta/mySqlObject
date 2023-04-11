@@ -14,4 +14,12 @@
    $dados = Conexao::query($selectSql);
    return $dados -> fetch_object();
  }
+
+ public function deletar($campo, $id){
+   $deleteSql = "DELETE FROM {$this->tabela} WHERE $campo = {$id}";
+   return Conexao::query($deleteSql);
+ }
+
+
+
  }
